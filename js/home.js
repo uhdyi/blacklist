@@ -37,7 +37,7 @@ function parse_url() {
 }
 
 function searchItem(category, keywords, page) {
-    $("#search-result").html("");
+     $("#search-result").html("");
     $("#loading").html('<img src="images/ajax-loader.gif">');
     
     $.getJSON(
@@ -54,7 +54,7 @@ function searchItem(category, keywords, page) {
          }
          else {         
            	displaySearchResult(json.data, page, category);
-		displayPages(category, keywords, json.totalpages, page);
+						displayPages(category, keywords, json.totalpages, page);
          }
       });
 }

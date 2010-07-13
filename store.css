@@ -140,80 +140,6 @@ hr { display: none; }
 */
 #menu .first {
 }
-
-/* Login */
-
-.post .login-left {
-	width: 350px;
-	float: left;
-}
-
-.post .login-right {
-	width: 350px;
-	float: right;
-}
-
-.post form {
-	margin: 0 0 10px 0;
-}
-
-.post label {
-	float: left;
-	paddding-top: 8px;
-	clear: both;
-	width: 280px;
-	display:block;
-	
-}
-
-.post input{
-	border: 1px #1A1A1A solid;
-	background: #414141;
-	margin-right: 5px;
-	margin-top: 4px;
-	width: 200px;
-	color: white;
-	height:16px;
-}
-
-.border {
-	/*border: 15px #1d1d1d solid;*/
-}
-
-#login {
-	width: 300px;
-	height:170px;
-	right: 150px;
-	top: 110px;
-	background:#E1E1E1;
-	text-align:left;
-	padding-left:10px;
-}
-
-#login p {
-	color: #00000;
-	line-height:40px;
-}
-
-#login label {
-	width: 80px;
-	float: left;
-	font-weight: bold;
-	text-align: right;
-	margin-right: 10px;
-	display: block;
-}
-
-#login input[type=text],input[type=password] {
-	width: 150px;
-}
-#login input#login_btn {
-	border: 1px #899690 solid;
-	cursor: pointer;
-	position: relative;
-	left: 90px;
-}
-
 /* Search */
 
 #search {
@@ -221,7 +147,7 @@ hr { display: none; }
 	/*padding-top: 10px;*/
 	width: 720px;
 	height: 43px;
-	margin-top: 10px;
+  margin-top: 10px;
 	background: url(images/img02.jpg) no-repeat left top;    
 	vertical-align:middle;    
 }

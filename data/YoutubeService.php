@@ -1,6 +1,5 @@
 <?php
 ini_set("display_errors", 1);
-ini_set('magic_quotes_runtime', 'off');
 /**
  * @see Zend_Loader
  */
@@ -9,8 +8,6 @@ require_once 'Zend/Loader.php';
 /**
  * @see Zend_Gdata_YouTube
  */
-Zend_Loader::loadClass('Zend_Gdata');
-Zend_Loader::loadClass('Zend_Gdata_Query');
 Zend_Loader::loadClass('Zend_Gdata_YouTube');
 
 /**
